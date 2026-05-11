@@ -61,7 +61,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Surface user's last-used method at the top",
       "Show only top 3 methods by default; reveal others under 'More options'"
     ],
-    image: "/src/assets/images/regenerated_image_1778356352179.png"
+    image: "/images/regenerated_image_1778356352179.png"
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "After 10 seconds, switch to: 'Didn't get the OTP? Resend in 0:25'",
       "Provide a clearly visible 'Resend OTP' link as a fallback"
     ],
-    image: "/src/assets/images/regenerated_image_1778356875924.png"
+    image: "/images/regenerated_image_1778356875924.png"
   },
   {
     id: 3,
@@ -87,7 +87,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Pre-select the most recently used address",
       "Use a stronger visual treatment (border, accent color) for the selected card"
     ],
-    image: "/src/assets/images/regenerated_image_1778356877271.png"
+    image: "/images/regenerated_image_1778356877271.png"
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Suggest the next action: 'Add ₹120 more to apply this coupon'",
       "Show eligible coupons inline so the user can pick one that works"
     ],
-    image: "/src/assets/images/regenerated_image_1778356886992.png"
+    image: "/images/regenerated_image_1778356886992.png"
   },
   {
     id: 5,
@@ -113,7 +113,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Keep the CTA in the same screen position across all steps (sticky bottom)",
       "Use the same color and size for all primary CTAs"
     ],
-    image: "/src/assets/images/regenerated_image_1778356883010.png"
+    image: "/images/regenerated_image_1778356883010.png"
   },
   {
     id: 6,
@@ -126,7 +126,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Persist the user's payment selection if they go back and return",
       "Provide visible breadcrumbs: Cart → Address → Summary → Payment"
     ],
-    image: "/src/assets/images/regenerated_image_1778356880947.png"
+    image: "/images/regenerated_image_1778356880947.png"
   },
   {
     id: 7,
@@ -139,7 +139,7 @@ const USABILITY_ISSUES: UsabilityIssue[] = [
       "Highlight the active step and dim completed/upcoming steps",
       "On mobile, show 'Step 2 of 4' as a compact label"
     ],
-    image: "/src/assets/images/regenerated_image_1778356878885.png"
+    image: "/images/regenerated_image_1778356878885.png"
   }
 ];
 
@@ -281,7 +281,7 @@ export default function App() {
             >
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-[3rem] overflow-hidden border-8 border-flipkart-blue/20 p-2 bg-white/50 mb-10 group transition-all hover:rounded-full hover:scale-105 shadow-2xl">
                 <img 
-                  src="/src/assets/images/regenerated_image_1778356062879.png" 
+                  src="/images/regenerated_image_1778356062879.png" 
                   alt="Gaurav" 
                   className="w-full h-full object-cover rounded-[2.5rem] group-hover:rounded-full group-hover:grayscale-0 grayscale transition-all duration-700"
                 />
